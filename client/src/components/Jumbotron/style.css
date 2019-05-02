@@ -1,0 +1,5 @@
+/* styling for jumbotron adding padding of 100 pixels on all sides */
+
+.jumbotron {
+  padding: 100px;
+}

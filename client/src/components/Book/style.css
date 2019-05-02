@@ -1,0 +1,13 @@
+
+/* styles the button container so it floats right */
+
+.btn-container {
+  float: right;
+}
+
+/* not sure why this is here, @media means a style element will change when the browser window is 767px or less, but there is no style change listed */
+@media (max-width: 767px) {
+  .btn-container {
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,5 @@
+/* user defined styling sets the navbar border to 0 */
+
+.navbar {
+  border-radius: 0;
+}

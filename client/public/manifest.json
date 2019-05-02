@@ -1,0 +1,22 @@
+// JSON file that tells the browser about your web application and how it should behave when 'installed' on the user's mobile device or desktop
+// You must provide at least the short_name or name property. If both are provided, short_name is used on the user's home screen, launcher, or other places where space may be limited. name is used in the app install prompt.
+{
+  "short_name": "React Google Books Search",
+  "name": "React Google Books Search",
+  // When a user adds your site to their home screen, you can define a set of icons for the browser to use. These icons are used in places like the home screen, app launcher, task switcher, splash screen, etc.
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  // The start_url tells the browser where your application should start when it is launched, and prevents the app from starting on whatever page the user was on when they added your app to their home screen.
+  "start_url": "./index.html",
+  // Opens the web app to look and feel like a standalone native app. The app runs in its own window, separate from the browser, and hides standard browser UI elements like the URL bar, etc.
+  "display": "standalone",
+  // Sets theme color to black
+  "theme_color": "#000000",
+  // Sets background color to white
+  "background_color": "#ffffff"
+}

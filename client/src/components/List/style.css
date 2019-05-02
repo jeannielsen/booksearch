@@ -1,0 +1,5 @@
+/* adds styling changing the list group items to a font size of 16 pixels */
+
+.list-group-item p {
+  font-size: 16px;
+}
