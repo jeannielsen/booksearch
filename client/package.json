@@ -1,5 +1,4 @@
 {
-  // identifies the file and version, sets to private, sets local host to 3001, dependencies for axios and react
   "name": "react-google-books",
   "version": "0.1.0",
   "private": true,
